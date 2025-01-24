@@ -5,7 +5,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
 contract Raffle {
     uint256 public constant ticketPrice = 0.01 ether;
-    uint256 public constant maxTickets = 100; // maximum tickets per Raffle
+    uint256 public constant maxTickets = 100; // maximum tickets per Rafflee
     uint256 public constant ticketCommission = 0.001 ether; // commition per ticket
     uint256 public constant duration = 30 minutes; // The duration set for the Raffle
 
